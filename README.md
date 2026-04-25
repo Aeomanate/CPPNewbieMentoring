@@ -88,4 +88,6 @@ That's completely fine for today.
    - Sometimes, a task could get 1 week of your time. Sometimes you can solve it just having a glance at the description.
    - Every task have a dozen variations of solution - it's up to you what to choose.
    - If you can't find any solution, you can ask for help, advice, tip, or direct guide.
-     Maybe, you decided to change task description, and you didn't notice it. It's always a good idea to ask for help in task description understanding. 
+     - Maybe, you decided to change task description, and you didn't notice it.
+     - Maybe, you have to change a task description and without it the task should be solved in a different way that the description is supposed to do.
+     - It's always a good idea to ask for help in task description understanding. 
