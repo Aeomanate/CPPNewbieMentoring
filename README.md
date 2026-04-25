@@ -24,7 +24,7 @@ Each folder contains only a task description in the main branch. Students have t
    git add . # only if there are only *.cpp, *.hpp and other code files
    
    git commit -m "Solved problem X" \
-              -m "Approach Y was used, tradeoffs discussed"
+              -m "Approach Y was used, tradeoffs Z discussed"
 
    git push -u origin students/your_name
 
