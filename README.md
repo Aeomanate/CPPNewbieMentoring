@@ -83,4 +83,9 @@ That's completely fine for today.
      You're learning new things through mistakes and dozens of attempts.
      You don't have to simplify your path for now, until you know how to create a complex program by yourself of at least 500 lines of code.
      Before this point, AI will only give you solutions, but not knowledge.
-2. If you want, you can find any git handbook or video. For basic concepts, it's a pretty simple thing. 
+2. If you want, you can find any git handbook or video. For basic concepts, it's a pretty simple thing.
+3. You're allowed to google, find some forum solution pieces, read documentation and try different approaches.
+   - Sometimes, a task could get 1 week of your time. Sometimes you can solve it just having a glance at the description.
+   - Every task have a dozen variations of solution - it's up to you what to choose.
+   - If you cant find any solution, you can ask for help, advice, tip, or direct guide.
+     Maybe, you decided to change task description, and you didn't notice it. It's always a good idea to ask for help in task description understanding. 
