@@ -6,7 +6,7 @@ Created for an async code review for students
 Each folder contains only a task description in the main branch. Students guide: 
 
 0. Install git: https://git-scm.com/install/
-1. Fork the repository once: https://github.com/Aeomanate/CPPNewbieMentoring/fork
+1. Fork the repository once: (fork guide)[https://github.com/Aeomanate/CPPNewbieMentoring/fork]
 2. Clone your fork locally in the first time
    <details>
       <summary>Clone guide</summary>
@@ -15,17 +15,24 @@ Each folder contains only a task description in the main branch. Students guide:
       git clone https://github.com/<your_github_username>/CPPNewbieMentoring.git
       ```
    
-      And update your repository with new tasks if necessary:
-      - Sync your fork and update main branch:
-      - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
-      - ```bash
+      And update your repository with new tasks. You do it, when my __**main**__ branch updates:
+      - Sync your fork and update main branch: (sync fork guide)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork]
+        
+      - Make the main branch as current branch
+        ```bash
         git checkout main
+        git pull
         ```
       - Update your branch locally: 
-      -  ```bash
+         ```bash
          git checkout students/your_name
          git rebase main
          ```
+         Here may occur merge conflicts. You have to decide how to merge my changes and your changes.
+         - Details here: (merge guide)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line]
+         - Also, for merging you may prefer some GUI utilites, like (tortoise git)[https://tortoisegit.org/].
+           
+           It's a great tool for fast merging, but you have to adapt to raw git commands, it's always better in any case, (trust me)[https://softwareengineering.stackexchange.com/a/173318]. 
    </details>
    
 4. Use a specific branch for your solutions: `git checkout -b students/your_name`
@@ -93,19 +100,18 @@ Each folder contains only a task description in the main branch. Students guide:
       >   AND files that required for proper work (`.png` or `.txt`) as an input data
    
       Make a pull request to the main repository:
-      - You're asking for a merge of **your** branch (`your fork -> students/your_name`)
-      - **to your branch** here (`CPPNewbieMentoring -> students/your_name`),
+      - You're asking for a merge of __**your**__ branch (`your fork -> students/your_name`)
+      - __**to your branch**__ here (`CPPNewbieMentoring -> students/your_name`),
       - Do NOT target the main branch!
       
-      GitHub guide:
-      https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+      (GitHub pull request guide)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request]
    </details>
 
 6. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
 
-7. After the code review, your changes will be merged into the main repository to **your** branch
+7. After the code review, your changes will be merged into the main repository to __**your**__ branch
    
-8. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
+8. Any new pull request should go to __**your**__ branch again. Therefore, this repository will contain all your accepted solutions under __**your**__ branch.
 
 ## I don't know git / I don't know how to solve a task!
 That's completely fine for today.  
