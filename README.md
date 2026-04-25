@@ -7,21 +7,25 @@ Each folder contains only a task description in the main branch. Students guide:
 
 0. Install git: https://git-scm.com/install/
 1. Fork the repository once: https://github.com/Aeomanate/CPPNewbieMentoring/fork
-2. Clone your fork locally in the first time:
-   ```
-   git clone https://github.com/<your_github_username>/CPPNewbieMentoring.git
-   ```
-
-   And update your repository with new tasks if necessary:
-   - Sync your fork and update main branch:
-   - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
-   - `git checkout main`
-   - Update your branch locally: 
-   -  ```
-      git checkout students/your_name
-      git rebase main
+2. Clone your fork locally in the first time
+   <details>
+      <summary>Clone guide</summary>
       ```
-3. Use a specific branch for your solutions: `git checkout -b students/your_name`
+      git clone https://github.com/<your_github_username>/CPPNewbieMentoring.git
+      ```
+   
+      And update your repository with new tasks if necessary:
+      - Sync your fork and update main branch:
+      - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+      - `git checkout main`
+      - Update your branch locally: 
+      -  ```
+         git checkout students/your_name
+         git rebase main
+         ```
+   </details>
+   
+4. Use a specific branch for your solutions: `git checkout -b students/your_name`
    <details>
       <summary>Advanced git usage</summary>
       
@@ -35,45 +39,57 @@ Each folder contains only a task description in the main branch. Students guide:
       When you've done with the solution and you've commited it, you can do a merge to your branch:
       - `git checkout students/your_name`
       - `git merge students/your_name/solution_for_task_x`
+  
+      Such flow allows you to organize branches in more proper way.
+      Therefore, for each task you'll have a separated branch, and you won't create a mess in your general branch (`students/your_name`)
    </details>
    
-4. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
+6. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
    
-6. Modify README.md file in the root of the solution.
+7. Modify README.md file in the root of the solution.
    - Append `Solution` section, explain what you've done here and why.
    - Append a sub-section `Solution output example` - you may attach a light, small jpg only if necessary.
    - It's better to write just plain text (just copy it from your terminal).
      > Keep in mind, GitHub have a limited free space for each repository, so don't blow up the repository size, commit only text data.
      
-7. Store and publish your work
-   ```
-   git status # check what files you're about to commit
-   
-   git add . # only if there are only *.cpp, *.hpp and other code files
-   
-   git commit -m "Solved problem X" \
-              -m "Approach Y was used, tradeoffs Z discussed"
+8. Store and publish your work
+   <details>
+      <summary>Publishing guide</summary>
+      First, execute these commands:
+      
+      ```bash
+      # Check what files you're about to commit.
+      git status 
+      
+      # Add necessary files to preparing area (stage). Do it only if status showed *.cpp, *.hpp and other code files.
+      git add . 
 
-   git push -u origin students/your_name
+      # Commiting is a operation for saving your changes in a local git database
+      git commit -m "Solved problem X" \
+                 -m "Approach Y was used, tradeoffs Z discussed"
 
-   # -u sets the upstream branch, so future git push commands work without arguments:
-   git push
-   ```
-> [!WARNING]
-> Important!
-> - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
-> - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
-> - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
->   AND files that required for proper work (`.png` or `.txt`) as an input data
+      # Pushing is a network operation. You're updating your remote fork with fresh local changes.
+      git push -u origin students/your_name
+   
+      # The flag -u sets the upstream branch, so future git push commands work without arguments:
+      git push
+      ```
+      
+      > Important!
+      > - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
+      > - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
+      > - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
+      >   AND files that required for proper work (`.png` or `.txt`) as an input data
+   
+      Make a pull request to the main repository:
+      - You're asking for a merge of **your** branch (`your fork -> students/your_name`)
+      - **to your branch** here (`CPPNewbieMentoring -> students/your_name`),
+      - Do NOT target the main branch!
+      
+      GitHub guide:
+      https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+   </details>
 
-   Make a pull request to the main repository:
-   - You're asking for a merge of **your** branch (`your fork -> students/your_name`)
-   - **to your branch** here (`CPPNewbieMentoring -> students/your_name`),
-   - Do NOT target the main branch!
-   
-   GitHub guide:
-   https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-   
 6. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
 
 7. After the code review, your changes will be merged into the main repository to **your** branch
