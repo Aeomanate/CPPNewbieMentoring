@@ -109,7 +109,7 @@ Each folder contains only a task description in the main branch. Students guide:
       [GitHub pull request guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
    </details>
 
-6. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
+6. Wait for or ask for a code review [a code-review guide](https://github.com/mawrkus/pull-request-review-guide)
 
 7. After the code review, your changes will be merged into the main repository to __**your**__ branch
    
