@@ -21,14 +21,29 @@ Each folder contains only a task description in the main branch. Students have t
       git rebase master
       ```
 4. Use a specific branch for your solutions: `git checkout -b students/your_name`
-5. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
-
-   Important!
-   - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
-   - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
-   - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
-     AND files that required for proper work (`.png` or `.txt`) as an input data
-6. Store and publish your work
+   <details>
+      <summary>Advanced git usage</summary>
+      
+      If you want to know git a bit better and you have to make several commits, it's better to manage it as an additional branch from your:
+      - `git checkout -b students/your_name`
+      - `git checkout -b students/your_name/solution_for_task_x`
+   
+      It will create this branch graph:
+      - `main` <- `students/your_name` <- `students/your_name/solution_for_task_x`
+   
+      When you've done with the solution and you've commited it, you can do a merge to your branch:
+      - `git checkout students/your_name`
+      - `git merge students/your_name/solution_for_task_x`
+   </details>
+   
+6. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
+   > [!WARNING]
+   > Important!
+   > - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
+   > - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
+   > - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
+       AND files that required for proper work (`.png` or `.txt`) as an input data
+8. Store and publish your work
    ```
    git status # check what files you're about to commit
    
@@ -49,9 +64,9 @@ Each folder contains only a task description in the main branch. Students have t
 
    GitHub guide:
    https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-8. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
-9. After the code review, your changes will be merged into the main repository to **your** branch
-10. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
+9. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
+10. After the code review, your changes will be merged into the main repository to **your** branch
+11. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
 
 ## I don't know git / I don't know how to solve a task!
 That's completely fine for today.  
