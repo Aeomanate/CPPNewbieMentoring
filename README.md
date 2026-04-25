@@ -10,6 +10,7 @@ Each folder contains only a task description in the main branch. Students guide:
 2. Clone your fork locally in the first time
    <details>
       <summary>Clone guide</summary>
+      
       ```
       git clone https://github.com/<your_github_username>/CPPNewbieMentoring.git
       ```
