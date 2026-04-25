@@ -11,7 +11,7 @@ Each folder contains only a task description in the main branch. Students have t
    git clone https://github.com/<your_github_username>/CPPNewbieMentoring.git
    ```
 3. Use a specific branch for your solutions: `git checkout -b students/your_name`
-4. Solve a problem from the main repository locally.
+4. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
 
    Important!
    - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
