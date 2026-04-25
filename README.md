@@ -19,8 +19,13 @@ Each folder contains only a task description in the main branch. Students have t
    - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
      AND files that required for proper work (`.png` or `.txt`) as an input data
 6. ```
-   git add .
-   git commit -m "Solved problem X"
+   git status # check what files you're about to commit
+   
+   git add . # only if there are only *.cpp, *.hpp and other code files
+   
+   git commit -m "Solved problem X" \
+              -m "Approach Y was used, tradeoffs discussed"
+
    git push -u origin students/your_name
 
    # -u sets the upstream branch, so future git push commands work without arguments:
