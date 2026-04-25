@@ -14,12 +14,12 @@ Each folder contains only a task description in the main branch. Students guide:
 
    And update your repository with new tasks if necessary:
    - Sync your fork and update main branch:
-   - `git checkout master`
+   - `git checkout main`
    - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
    - Update your branch locally: 
    -  ```
       git checkout students/your_name
-      git rebase master
+      git rebase main
       ```
 4. Use a specific branch for your solutions: `git checkout -b students/your_name`
    <details>
