@@ -16,10 +16,10 @@ Each folder contains only a task description in the main branch. Students have t
    - `git checkout master`
    - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
    - Update your branch locally: 
-   ```
-   git checkout students/your_name
-   git rebase master
-   ```
+   -  ```
+      git checkout students/your_name
+      git rebase master
+      ```
 4. Use a specific branch for your solutions: `git checkout -b students/your_name`
 5. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
 
