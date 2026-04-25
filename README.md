@@ -1,4 +1,4 @@
-# CPPNewbieMentoring
+# CPP Newbie Mentoring
 Created for an async code review for students
 
 ## How to use this repository
