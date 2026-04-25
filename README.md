@@ -38,7 +38,14 @@ Each folder contains only a task description in the main branch. Students guide:
    </details>
    
 4. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
-5. Store and publish your work
+   
+6. Modify README.md file in the root of the solution.
+   - Append `Solution` section, explain what you've done here and why.
+   - Append a sub-section `Solution output example` - you may attach a light, small jpg only if necessary.
+   - It's better to write just plain text (just copy it from your terminal).
+     > Keep in mind, GitHub have a limited free space for each repository, so don't blow up the repository size, commit only text data.
+     
+7. Store and publish your work
    ```
    git status # check what files you're about to commit
    
