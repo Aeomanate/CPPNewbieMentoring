@@ -6,7 +6,7 @@ Created for an async code review for students
 Each folder contains only a task description in the main branch. Students guide: 
 
 0. Install git: https://git-scm.com/install/
-1. Fork the repository once: (fork guide)[https://github.com/Aeomanate/CPPNewbieMentoring/fork]
+1. Fork the repository once: [fork guide](https://github.com/Aeomanate/CPPNewbieMentoring/fork)
 2. Clone your fork locally in the first time
    <details>
       <summary>Clone guide</summary>
@@ -16,7 +16,7 @@ Each folder contains only a task description in the main branch. Students guide:
       ```
    
       And update your repository with new tasks. You do it, when my __**main**__ branch updates:
-      - Sync your fork and update main branch: (sync fork guide)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork]
+      - Sync your fork and update main branch: [sync fork guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
         
       - Make the main branch as current branch
         ```bash
@@ -29,10 +29,12 @@ Each folder contains only a task description in the main branch. Students guide:
          git rebase main
          ```
          Here may occur merge conflicts. You have to decide how to merge my changes and your changes.
-         - Details here: (merge guide)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line]
+         - Details here: [merge guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
          - Also, for merging you may prefer some GUI utilites, like (tortoise git)[https://tortoisegit.org/].
            
-           It's a great tool for fast merging, but you have to adapt to raw git commands, it's always better in any case, (trust me)[https://softwareengineering.stackexchange.com/a/173318]. 
+           It's a great tool for fast merging, but you have to adapt to raw git commands.
+
+           Raw git commands are always better in any case, [trust me](https://softwareengineering.stackexchange.com/a/173318). 
    </details>
    
 4. Use a specific branch for your solutions: `git checkout -b students/your_name`
@@ -104,7 +106,7 @@ Each folder contains only a task description in the main branch. Students guide:
       - __**to your branch**__ here (`CPPNewbieMentoring -> students/your_name`),
       - Do NOT target the main branch!
       
-      (GitHub pull request guide)[https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request]
+      [GitHub pull request guide](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
    </details>
 
 6. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
