@@ -37,12 +37,12 @@ Each folder contains only a task description in the main branch. Students have t
    </details>
    
 6. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
-   > [!WARNING]
-   > Important!
-   > - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
-   > - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
-   > - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
-       AND files that required for proper work (`.png` or `.txt`) as an input data
+> [!WARNING]
+> Important!
+> - Make sure that your git-ignore file has a correct setup to exclude all non-code files.
+> - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
+> - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
+>   AND files that required for proper work (`.png` or `.txt`) as an input data
 8. Store and publish your work
    ```
    git status # check what files you're about to commit
