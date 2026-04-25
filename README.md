@@ -111,7 +111,7 @@ Each folder contains only a task description in the main branch. Students guide:
 
 6. Wait for or ask for a code review [a code-review guide](https://github.com/mawrkus/pull-request-review-guide)
 
-7. After the code review, your changes will be merged into the main repository to __**your**__ branch
+7. After successfuly passed the code review, your changes will be merged into the main repository to __**your**__ branch
    
 8. Any new pull request should go to __**your**__ branch again. Therefore, this repository will contain all your accepted solutions under __**your**__ branch.
 
