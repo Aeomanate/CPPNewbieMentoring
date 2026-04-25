@@ -4,6 +4,7 @@ Created for an async code review for students
 ## How to use this repository
 
 Each folder contains only a task description in the main branch. Students have to: 
+
 0. Install git: https://git-scm.com/install/
 1. Fork the repository once: https://github.com/Aeomanate/CPPNewbieMentoring/fork
 2. Clone your fork locally in the first time:
