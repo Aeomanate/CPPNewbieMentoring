@@ -89,6 +89,6 @@ That's completely fine for today.
    - Every task have a dozen variations of solution - it's up to you what to choose.
    - If you can't find any solution, you can ask for help, advice, tip, or direct guide.
      - Maybe, you decided to change a task description, and you didn't notice it.
-       Therefore, you can't find a solution to a very broad and, actually, another task. It's a usual case when task description wasn't interpreted correctly.
-     - Maybe, you have to change a task description and without it the task should be solved in a different way that the description is supposed to do.
+       Therefore, you can't find a solution to a very broad and, actually, another task. It's a usual case when a task description wasn't interpreted correctly.
+     - Maybe, you have to change a task description, and without it the task can't be solved. Mistakes occurs - offer your variations. 
      - It's always a good idea to ask for help in task description understanding. 
