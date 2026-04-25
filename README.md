@@ -11,16 +11,18 @@ Each folder contains only a task description in the main branch. Students guide:
    <details>
       <summary>Clone guide</summary>
       
-      ```
+      ```bash
       git clone https://github.com/<your_github_username>/CPPNewbieMentoring.git
       ```
    
       And update your repository with new tasks if necessary:
       - Sync your fork and update main branch:
       - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
-      - `git checkout main`
+      - ```bash
+        git checkout main
+        ```
       - Update your branch locally: 
-      -  ```
+      -  ```bash
          git checkout students/your_name
          git rebase main
          ```
@@ -29,17 +31,25 @@ Each folder contains only a task description in the main branch. Students guide:
 4. Use a specific branch for your solutions: `git checkout -b students/your_name`
    <details>
       <summary>Advanced git usage</summary>
-      
-      If you want to know git a bit better and you have to make several commits, it's better to manage it as an additional branch from your:
-      - `git checkout -b students/your_name`
-      - `git checkout -b students/your_name/solution_for_task_x`
+
+      Use it if:
+      - You want to know git a bit better
+      - You have to make several commits in one task
+   
+      It's better to manage solutions as an additional branch originated from your general branch:
+      - ```bash
+        git checkout -b students/your_name
+        git checkout -b students/your_name/solution_for_task_x
+        ```
    
       It will create this branch graph:
       - `main` <- `students/your_name` <- `students/your_name/solution_for_task_x`
    
       When you've done with the solution and you've commited it, you can do a merge to your branch:
-      - `git checkout students/your_name`
-      - `git merge students/your_name/solution_for_task_x`
+      - ```bash
+         git checkout students/your_name
+         git merge students/your_name/solution_for_task_x
+        ```
   
       Such flow allows you to organize branches in more proper way.
       Therefore, for each task you'll have a separated branch, and you won't create a mess in your general branch (`students/your_name`)
