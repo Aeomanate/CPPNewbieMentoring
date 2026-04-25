@@ -21,7 +21,7 @@ Each folder contains only a task description in the main branch. Students guide:
       git checkout students/your_name
       git rebase main
       ```
-4. Use a specific branch for your solutions: `git checkout -b students/your_name`
+3. Use a specific branch for your solutions: `git checkout -b students/your_name`
    <details>
       <summary>Advanced git usage</summary>
       
@@ -37,8 +37,8 @@ Each folder contains only a task description in the main branch. Students guide:
       - `git merge students/your_name/solution_for_task_x`
    </details>
    
-6. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
-8. Store and publish your work
+4. Solve a problem from the main repository locally. Place your solution into an appropriate task folder.
+5. Store and publish your work
    ```
    git status # check what files you're about to commit
    
@@ -67,11 +67,11 @@ Each folder contains only a task description in the main branch. Students guide:
    GitHub guide:
    https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
    
-9. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
+6. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
 
-10. After the code review, your changes will be merged into the main repository to **your** branch
+7. After the code review, your changes will be merged into the main repository to **your** branch
    
-12. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
+8. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
 
 ## I don't know git / I don't know how to solve a task!
 That's completely fine for today.  
