@@ -18,7 +18,8 @@ Each folder contains only a task description in the main branch. Students have t
    - It's important to commit only code files without any `.dbg`, `.cmake`, `.dll`, `.exe`, etc.
    - If you're working on C++, your commit should contain only `.cpp`, `.h` files (or `.cxx`, `.hpp` and other variations)
      AND files that required for proper work (`.png` or `.txt`) as an input data
-6. ```
+6. Store and publish your work
+   ```
    git status # check what files you're about to commit
    
    git add . # only if there are only *.cpp, *.hpp and other code files
@@ -38,9 +39,9 @@ Each folder contains only a task description in the main branch. Students have t
 
    GitHub guide:
    https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
-7. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
-8. After the code review, your changes will be merged into the main repository to **your** branch
-9. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
+8. Wait for or ask for a code review (a code-review guide: https://github.com/mawrkus/pull-request-review-guide)
+9. After the code review, your changes will be merged into the main repository to **your** branch
+10. Any new pull request should go to **your** branch again. Therefore, this repository will contain all your accepted solutions under **your** branch.
 
 ## I don't know git / I don't know how to solve a task!
 That's completely fine for today.  
