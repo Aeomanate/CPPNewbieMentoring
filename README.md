@@ -87,5 +87,5 @@ That's completely fine for today.
 3. You're allowed to google, find some forum solution pieces, read documentation and try different approaches.
    - Sometimes, a task could get 1 week of your time. Sometimes you can solve it just having a glance at the description.
    - Every task have a dozen variations of solution - it's up to you what to choose.
-   - If you cant find any solution, you can ask for help, advice, tip, or direct guide.
+   - If you can't find any solution, you can ask for help, advice, tip, or direct guide.
      Maybe, you decided to change task description, and you didn't notice it. It's always a good idea to ask for help in task description understanding. 
